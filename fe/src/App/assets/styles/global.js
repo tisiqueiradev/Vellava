@@ -12,7 +12,8 @@ export default createGlobalStyle `
     }
 
     body {
-        background: ${({ theme }) => theme.backgroundColor};
+        background: ${({ theme }) => theme.colors.background.page};
+        color: ${({ theme }) => theme.colors.text.primary};
         font-size: 16px;
     }
 
