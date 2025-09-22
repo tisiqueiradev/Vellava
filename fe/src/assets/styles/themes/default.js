@@ -10,7 +10,7 @@ export const theme =  {
       secondary: "#6B6B6B",
     },
     background: {
-      page: "#F8F9FC",
+      page: "#814DFF",
       card: "#FFFFFF",
     },
   },
