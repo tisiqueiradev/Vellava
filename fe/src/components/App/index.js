@@ -7,6 +7,7 @@ import { theme as lightTheme, darkTheme } from "../../assets/styles/themes/defau
 import Header from '../Header';
 
 import { Container } from './styles'
+import OrderList from '../OrderList';
 
 function App() {
 const [isDark,] = useState(true);
@@ -19,6 +20,7 @@ const [isDark,] = useState(true);
       <Container>
 
         <Header />
+        <OrderList />
       </Container>
 
 

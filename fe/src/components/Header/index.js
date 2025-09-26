@@ -7,7 +7,7 @@ export default function Header(){
         <Container>
             <img src={logo} alt='logo' width="201"/>
             < InputSearchContainer>
-                <input type="text" placeholder="Pesquise sua GR..." />
+                <input type="date" />
             </InputSearchContainer>
 
         </Container>
