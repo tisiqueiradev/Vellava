@@ -1,6 +1,6 @@
 export const theme =  {
   colors: {
-    primary: "#2D1862",       // header e logo
+    primary: "#FFFFFF",       // header e logo
     secondary: "#814DFF",     // botões
     success: "#B6FF66",       // status pronto
     warning: "#FFE96C",       // status em andamento
@@ -19,11 +19,12 @@ export const theme =  {
 export const darkTheme = {
   colors: {
     background: {
-      page: "#121212",
+      page: "#9D6CFF",
       card: "#1E1E2E",
     },
     primary: "#814DFF",     // destaque roxo
     secondary: "#9D6CFF",   // variação roxo
+    terceary: "#2a027aff",
     success: "#4CAF50",     // pronto
     warning: "#FFD54F",     // em andamento
     logoGreen: "#7ED957",

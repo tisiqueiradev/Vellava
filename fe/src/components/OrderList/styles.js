@@ -18,14 +18,14 @@ export const Header = styled.header`
         color: ${({ theme }) => theme.colors.text.primary};
         text-decoration: none;
         font-weight: bold;
-        border: 2px solid ${({ theme }) => theme.colors.primary};
+        border: 2px solid ${({ theme }) => theme.colors.text.primary};
         padding: 8px 16px;
         border-radius: 4px;
         transition: all 0.2s ease-in;
 
         &:hover {
-            background: ${({ theme }) => theme.colors.secondary};
-            color: ${({ theme }) => theme.colors.text.primary};
+            background: ${({ theme }) => theme.colors.success};
+            color: ${({ theme }) => theme.colors.text.success};
         }
     }
 
