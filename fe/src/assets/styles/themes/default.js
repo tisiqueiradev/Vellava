@@ -31,6 +31,11 @@ export const darkTheme = {
     text: {
       primary: "#FFFFFF",
       secondary: "#B0B0B0",
+      title:"#1F1F1F",
+      gray: {
+        900: '#222222',
+        200: '#BCBCBC'
+      }
     },
     border: "#2A2A40",
   },
