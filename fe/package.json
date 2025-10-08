@@ -16,7 +16,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "ins": "nvm install 14.17.1 & nvm use 14.17.1",
+    "ins": "nvm install 14.17.1",
+    "dev":"nvm use 14.17.1 ",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
